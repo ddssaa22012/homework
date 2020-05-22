@@ -1,5 +1,5 @@
 from django.contrib import admin
-from hotelapi.models import booking,user
+from hotelapi.models import booking,users
 # Register your models here.
 class usersAdmin(admin.ModelAdmin):
     list_display=('uid','created_time')
